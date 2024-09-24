@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Charts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">Home</a>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>Gráficos en seaborn</h1>
+        <div class="text-center">
+            <img src="{{ url_for('static', filename='img/seaborn_plot.png') }}"
+                 alt="Seaborn Plot" class="img-fluid">
+        </div>
+    </div>
+
+    <div class="mb-5">
+        <h2 class="text-center">Heatmap</h2>
+        <div class="text-center">
+            <img src="{{ url_for('static', filename='img/seaborn_heatmap.png') }}"
+                 alt="Seaborn Heatmap" class="img-fluid">
+        </div>
+    </div>
+    <div class="mb-5">
+        <h2 class="text-center">Boxplot</h2>
+        <div class="text-center">
+            <img src="{{ url_for('static', filename='img/seaborn_boxplot.png') }}"
+                 alt="Seaborn Boxplot" class="img-fluid">
+        </div>
+    </div>
+     <div class="mb-5">
+        <h2 class="text-center">Pairplot</h2>
+        <div class="text-center">
+            <img src="{{ url_for('static', filename='img/seaborn_pairplot.png') }}"
+                 alt="Seaborn Pairplot" class="img-fluid">
+        </div>
+    </div>
+</body>
+</html>
